@@ -30,7 +30,7 @@ MongoClient.connect('mongodb+srv://cmcampom:<PASSWORD>@cluster0-uukek.mongodb.ne
 
 function(err, client){
 
-    if(err) throw err;
+   if(err) throw err;
 
     db = client.db('elementos');
 
