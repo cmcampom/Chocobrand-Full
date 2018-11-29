@@ -1,0 +1,128 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Barlow', sans-serif;
+}
+
+.main_cnt {
+    border: 1px solid whitesmoke;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .4em;
+
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.27);
+    padding: 1em;
+
+}
+
+.builder {
+    display: flex;
+    /*TODO arreglar este heigh*/
+    height: 40em;
+    width: 100%;
+    /*background: aqua;*/
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.canvas {
+    border: darkgray 1px solid;
+    width: 70%;
+    height: 70%;
+    border-radius: .4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nm {
+    /*background: darkgray;*/
+    width: 100%;
+    padding: .5em;
+    border: 1px solid darkgray;
+    margin: .5em 0 .5em 0;
+    border-radius: .4em;
+}
+
+.l {
+    /*background: darkgray;*/
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r {
+    /*background: black;*/
+    flex: 1;
+    padding: 1em;
+    /*padding: 1em;*/
+}
+
+.sub {
+    opacity: .8;
+    font-weight: normal;
+}
+
+.ttl {
+    font-size: 2em;
+    font-weight: bold;
+    /*background: aqua;*/
+}
+
+.opts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.im_op {
+    /*background: darkgray;*/
+    width: 8em;
+    height: 8em;
+    margin: 1em;
+    border-radius: .4em;
+    border: darkgray 1px solid;
+}
+
+.op {
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.op:hover {
+    border-radius: .4em;
+    background: rgba(58, 58, 58, 0.05);
+}
+
+.ln {
+    background: darkgray;
+    margin-top: .4em;
+    margin-bottom: .4em;
+    height: 1px;
+    opacity: .3;
+}
+
+@media (min-width: 40em) {
+    .r {
+        /*background: red;*/
+    }
+
+    .l {
+        /*background: cornflowerblue;*/
+    }
+
+    .builder {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,130 @@
+[
+{
+  
+    "nombre" : "Ruby Sunset",
+    "precio" : 30.0,
+    "especial" : false,
+    "gluten" : true,
+    "dulce" : 60.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/rubySunset.png"
+},
+
+
+{
+    "nombre" : "Always Fav",
+    "precio" : 25.0,
+    "especial" : false,
+    "gluten" : true,
+    "dulce" : 80.0,
+    "fav" : true,
+    "car" : false,
+    "img" : "/img/rubySunset.png"
+},
+
+
+{
+    
+    "nombre" : "Chocolate Dream",
+    "precio" : 33.0,
+    "especial" : true,
+    "gluten" : true,
+    "dulce" : 80.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/rubySunset.png"
+},
+
+
+{
+   
+    "nombre" : "FullBerry",
+    "precio" : 22.0,
+    "especial" : false,
+    "gluten" : false,
+    "dulce" : 70.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/rubySunset.png"
+},
+
+
+{
+    
+    "nombre" : "Veggie",
+    "precio" : 29.0,
+    "especial" : true,
+    "gluten" : false,
+    "dulce" : 30.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/veggie.png"
+},
+
+
+{
+    
+    "nombre" : "Flavorless No.1",
+    "precio" : 35.0,
+    "especial" : true,
+    "gluten" : true,
+    "dulce" : 60.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/muffin3.png"
+},
+
+
+{
+    
+    "nombre" : "Blue Night",
+    "precio" : 27.0,
+    "especial" : false,
+    "gluten" : true,
+    "dulce" : 60.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/rubySunset.png"
+},
+
+
+{
+    
+    "nombre" : "Americorn",
+    "precio" : 28.0,
+    "especial" : false,
+    "gluten" : false,
+    "dulce" : 20.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/americorn.png"
+},
+
+
+{
+    
+    "nombre" : "Strawcake Berry",
+    "precio" : 31.0,
+    "especial" : false,
+    "gluten" : true,
+    "dulce" : 80.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/muffin2.png"
+},
+
+
+{
+   
+    "nombre" : "Day Less",
+    "precio" : 30.0,
+    "especial" : true,
+    "gluten" : true,
+    "dulce" : 100.0,
+    "fav" : false,
+    "car" : false,
+    "img" : "/img/muffin4.png"
+}
+
+]
