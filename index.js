@@ -21,7 +21,7 @@ app.use(express.static('public'));
 // Conectarse a Base de Datos
 MongoClient.connect('mongodb+srv://cmcampom:<PASSWORD>@cluster0-uukek.mongodb.net/elementos',
 {
-    auth:{
+    auth: {
         user: 'cmcampom',
         password: 'Olimpo123.'
     }
@@ -29,11 +29,13 @@ MongoClient.connect('mongodb+srv://cmcampom:<PASSWORD>@cluster0-uukek.mongodb.ne
 },
 
 function(err, client){
+
     if(err) throw err;
+
     db = client.db('elementos');
 
     //Iniciar Servidor
-    app.listen(process.env.PORT || 1234);
+    app.listen(process.env.PORT || 5500);
 
 }
 
