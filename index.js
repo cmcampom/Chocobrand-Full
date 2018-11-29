@@ -18,33 +18,6 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static('public'));
 
-// Conectarse a Base de Datos
-MongoClient.connect('mongodb+srv://cmcampom:<PASSWORD>@cluster0-uukek.mongodb.net/elementos',
-{
-    auth: {
-        user: 'cmcampom',
-        password: 'Popayan12-'
-    }
-
-},
-
-function(err, client){
-
-   if(err) throw err;
-
-    db = client.db('elementos');
-
-    //Iniciar Servidor
-    app.listen(process.env.PORT || 5500);
-
-}
-
-
-
-)
-
-
-/*
 client.connect(function(err){
 
     if(err){
@@ -53,9 +26,7 @@ client.connect(function(err){
         return;
     }
     db = client.db(dbName);
-});*/
-
-
+});
 
 app.get('/', function(request, response){
 
