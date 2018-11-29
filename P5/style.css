@@ -33,6 +33,16 @@
     flex-direction: column;
 }
 
+.cla {
+    width: 340px;
+    padding: 1em;
+    border-radius: .2em;
+    border: 1px solid darkgray;
+}
+
+.cla::placeholder{
+    content:"Nombre";
+}
 .canvas {
     border: darkgray 1px solid;
     width: 70%;
