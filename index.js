@@ -23,7 +23,7 @@ MongoClient.connect('mongodb+srv://cmcampom:<PASSWORD>@cluster0-uukek.mongodb.ne
 {
     auth: {
         user: 'cmcampom',
-        password: 'Olimpo123.'
+        password: 'Popayan12-'
     }
 
 },
