@@ -19,7 +19,7 @@ app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 
 // Conectarse a Base de Datos
-MongoClient.connect('mongodb+srv://cmcampom:<PASSWORD>@cluster0-uukek.mongodb.net/elementos?retryWrites=true',
+MongoClient.connect('mongodb+srv://cmcampom:<PASSWORD>@cluster0-uukek.mongodb.net/elementos',
 {
     auth:{
         user: 'cmcampom',
